@@ -23,7 +23,8 @@ st.title("🏡 Property Market Analytics")
 # -----------------------------
 # 2️⃣ Load Data
 # -----------------------------
-csv_path = "../data/processed/cleaned_house_prices.csv"
+csv_path = "data/processed/cleaned_house_prices.csv"
+
 
 if not os.path.exists(csv_path):
     st.error(f"File not found: {csv_path}")
