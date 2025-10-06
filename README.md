@@ -42,3 +42,7 @@ The dashboard is designed for **data-driven decision-making**, showcasing a full
 - **Plotly** – dynamic charts and maps  
 - **Pandas & NumPy** – data processing  
 - **GeoPandas & Folium** – geospatial analysis and heatmaps
+
+---
+## Live Dashboard : [https://geospatialanalytics-wrqqhvkqmmb3aq6hb9mann.streamlit.app/]
+
