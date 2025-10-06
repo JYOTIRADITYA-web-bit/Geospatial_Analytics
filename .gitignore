@@ -1,24 +1,37 @@
+# ==========================================
 # Python
+# ==========================================
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 *.pyc
 
-# Jupyter
-.ipynb_checkpoints
-
-# Virtual Environment
+# Virtual environments
 env/
 venv/
 *.env
 
+# ==========================================
+# Jupyter
+# ==========================================
+.ipynb_checkpoints
+
+# ==========================================
 # Data
+# ==========================================
+# Keep processed CSV and GeoJSON for dashboard
 data/raw/
-data/processed/*.csv
+# Ignore all raw files except processed cleaned CSV and GeoJSON
+!data/processed/cleaned_house_prices.csv
+!data/processed/cleaned_house_prices.geojson
+
+# Outputs
 outputs/
 *.html
 
+# ==========================================
 # OS Files
+# ==========================================
 .DS_Store
 Thumbs.db
